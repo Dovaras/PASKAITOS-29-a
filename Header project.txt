@@ -1,0 +1,15 @@
+Header project:
+1. First line creation
+2. Secont line creation with 7-nav
+3. Mitech icon on the left
+4. Search on the right
+5. Stay on top for 2nd exercise
+6. 7-nav with recursion for all
+
+Pilnas pradinis planas!!!
+
+import { wordsData } from "./data/wordsData.js";
+import { Dictionary } from "./components/Dictionary.js";
+
+const zodynas = new Dictionary('.content', 'Anglų-Lietuvių kalbų žodynas', wordsData);
+zodynas.init();
